@@ -1,0 +1,97 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0% 0%;
+    overflow: hidden;
+    font-family: 'Pretendard';
+}
+
+/*  */
+
+
+/*  */
+.back-video{
+  width: 100%;
+  height: 100%;
+  margin: 0px auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.back-video video { 
+    height: 100vh;
+    width: 120vw;
+    margin-left: -10%;
+    overflow: hidden;
+}
+
+.wrap{
+    overflow: hidden;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top:0%;
+    left: 0%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.795)2%,rgba(0, 0, 0, 0.397) 18%, rgba(0, 0, 0, 0.295)45%, rgba(0, 0, 0, 0.616) 60%, rgba(0, 0, 0, 0.963)100%);
+}
+
+
+.box-wrap{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top:0%;
+    left: 0%;
+    align-items: center;
+}
+
+.logo{
+  margin-top: 7%;
+}
+.box img{
+    margin-top: 10%;
+    width: 100vw; 
+}
+
+
+
+.headline{
+    display: block;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 20%;
+}
+.headline h1{
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: 4.6rem
+}
+
+.headline2{
+    display: block;
+    margin-top: 40%;
+}
+
+.headline2 h1{
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    font-size: 4.5rem;
+    letter-spacing: 0.2rem;
+    margin-left: 11.4%;
+}
+.menu{
+  margin-top: 15%;
+}
+.menu h1{
+  color:rgb(220, 212, 201);
+  text-align: center;
+  line-height: 1.4;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+
+

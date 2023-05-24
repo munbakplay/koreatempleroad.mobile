@@ -1,0 +1,259 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    font-family: 'Pretendard';
+    overflow-x: hidden;
+  }
+  nav{
+   z-index: 100;
+   position: fixed; 
+   width: 100%;
+   margin-top:0;
+   background-color: rgb(11, 13, 50);
+  }
+  
+  .nav-header{
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+  
+  }
+  .nav-header img{
+    display: block;
+    margin: 0 auto;  
+    width: 54%;
+  }
+  
+  .nav-menu{
+    width: 100%;
+  }
+  .nav-item{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+  }
+  .navmenu{
+    margin: 0 auto;
+    padding-bottom: 5%;
+  } 
+  .nav-menu a{
+    font-size: 1.1rem;
+   color: rgb(255, 255, 255);
+   text-align: center;
+   text-decoration:none;
+  }
+  .nav-menu a:link { 
+  
+    text-align: center;
+    text-decoration:none;
+    color: rgb(255, 255, 255);
+  }
+  .nav-menu a:visited{
+  
+   color: rgb(255, 255, 255);
+   text-align: center;
+   text-decoration:none;
+  }
+  .nav-menu a:active{
+  
+   color: rgb(255, 255, 255);
+   text-align: center;
+   text-decoration:none;
+  }
+
+
+  .cover {
+    padding-top: 46%;
+  }
+  
+  .topimg--intro{
+    position: fixed;
+    width: 100%;
+    padding-top: 60%;
+    z-index: -10;
+    background-position: 82%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  @media all and (max-width: 500px) {
+    .topimg--intro {
+      padding-top: 170%;
+    }
+  }
+  @media all and (min-width: 1300px) {
+    .topimg--intro {
+      padding-top: 45%;
+    }
+  }
+  
+  .topimg--intro {
+    background-image: url('travel/여행1.jpg');
+  }
+  @media all and (max-width: 500px) {
+    .topimg--intro {
+      background-image: url('travel/여행1.jpg');
+    }
+  }
+  
+  .headercover {
+    width: 100%;
+    padding-top: 60%;
+  }
+  @media all and (max-width: 500px) {
+    .headercover {
+      padding-top: 120%;
+    }
+  }
+  @media all and (min-width: 1300px) {
+    .headercover {
+      padding-top: 45%;
+    }
+  }
+
+
+.firstline{
+  z-index: 99;
+  width: 100%;
+  position: absolute;
+  margin-top: 75%;
+  text-align: center;
+}
+.firstline h1{
+  font-size: 3rem;
+}
+.firstline p{
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+
+
+.content4{
+  margin-top: 50%;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  text-align: center;
+}
+
+.content5{
+  padding-top: 20%;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  text-align: center;
+}
+.pic1 img{
+  z-index: 1;
+  width: 96%;
+  margin-top: -20%;
+}
+.pic1{
+  z-index: 1;
+  width: 100%;
+  position: relative;
+}
+.text4{
+  z-index: 99;
+  position: absolute;
+  margin-top: -16%;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+.text4 h1{
+  color: white;
+  font-weight: 500;
+  padding-bottom: 2%;
+}
+.text4-1{
+  border-top: 1px solid white;
+  color: white;
+  margin-bottom: 2%;
+  padding-left: 1%;
+}
+.text4-1 h2{
+  text-align: left;
+  padding-top: -2%;
+  font-size: 1.06rem;
+  font-weight: 400;
+}
+.text4-1 h3{
+  text-align: left;
+  font-size: 1.06rem;
+  margin-bottom: 10%;
+  font-weight: 200;
+}
+.text4 p{
+  margin-top: 20%;
+  margin-left: 2%;
+  font-size: 1.08rem;
+  text-align: left;
+  font-weight: 200;
+}
+.text4-2 p{
+  margin-top: 20%;
+  font-weight: 200;
+  margin-left: 2%;
+  font-size: 1.08rem;
+  text-align: left;
+  color: rgb(0, 0, 0);
+  text-shadow: -1px 0px rgb(255, 255, 255), 0px 1px rgb(255, 255, 255), 1px 0px rgb(255, 255, 255), 0px 1px rgb(255, 255, 255);
+}
+.text4-3 p{
+  margin-top: 20%;
+  margin-left: 2%;
+  font-weight: 200;
+  margin-right: 26%;
+  font-size: 1.08rem;
+  text-align: left;
+  color: rgb(255, 255, 255)
+}
+
+
+.gap{
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  padding-top: 20%;
+  margin-top: -2%;
+  margin-bottom: -1%;
+}
+
+
+
+.endwrap{
+  z-index: 3;
+  background: rgb(17, 18, 37);
+  width: 100%;
+  display:  flex;
+  justify-content : center;
+}
+.end h1{
+  text-align: left;
+  color:rgb(255, 255, 255);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  margin-bottom: 5%;
+}
+.end{
+  width: 90%;
+  text-align: left;
+  margin-bottom: 6%;
+  margin-top: 4%;
+}
+.end p{
+  color: #808080;
+  font-size: 0.7rem;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+
+
+
+
+  
+  
+
+
+
+  
+
